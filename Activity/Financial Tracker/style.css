@@ -1,0 +1,544 @@
+.overview {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .overview .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+  }
+  
+  .overview .overlap {
+    position: relative;
+    width: 1922px;
+    height: 1084px;
+  }
+  
+  .overview .group {
+    position: absolute;
+    width: 1922px;
+    height: 1080px;
+    top: 4px;
+    left: 0;
+  }
+  
+  .overview .overlap-group {
+    position: relative;
+    width: 1920px;
+    height: 1076px;
+    background-image: url(./img/rectangle-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .overview .img {
+    position: absolute;
+    width: 126px;
+    height: 41px;
+    top: 110px;
+    left: 1365px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .group-2 {
+    position: absolute;
+    width: 125px;
+    height: 41px;
+    top: 110px;
+    left: 1531px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .group-3 {
+    position: absolute;
+    width: 125px;
+    height: 41px;
+    top: 110px;
+    left: 1696px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .overlap-group-wrapper {
+    position: absolute;
+    width: 499px;
+    height: 95px;
+    top: 260px;
+    left: 1328px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .div {
+    position: relative;
+    width: 493px;
+    height: 95px;
+    background-image: url(./img/rectangle-6-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .overview .text-wrapper {
+    position: absolute;
+    top: 24px;
+    left: 51px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .text-wrapper-2 {
+    position: absolute;
+    top: 57px;
+    left: 51px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .text-wrapper-3 {
+    left: 307px;
+    color: #dc5318;
+    position: absolute;
+    top: 40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .menu-vertical {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 41px;
+    left: 418px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .div-wrapper {
+    position: absolute;
+    width: 499px;
+    height: 95px;
+    top: 375px;
+    left: 1328px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .overlap-2 {
+    position: relative;
+    width: 493px;
+    height: 95px;
+    background-image: url(./img/image.svg);
+    background-size: 100% 100%;
+  }
+  
+  .overview .text-wrapper-4 {
+    left: 290px;
+    color: #669863;
+    position: absolute;
+    top: 40px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .group-4 {
+    position: absolute;
+    width: 499px;
+    height: 95px;
+    top: 490px;
+    left: 1328px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .overlap-3 {
+    position: relative;
+    width: 493px;
+    height: 95px;
+    background-image: url(./img/rectangle-6-6.svg);
+    background-size: 100% 100%;
+  }
+  
+  .overview .group-5 {
+    position: absolute;
+    width: 499px;
+    height: 95px;
+    top: 605px;
+    left: 1328px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .overlap-4 {
+    position: relative;
+    width: 493px;
+    height: 95px;
+    background-image: url(./img/rectangle-6-4.svg);
+    background-size: 100% 100%;
+  }
+  
+  .overview .text-wrapper-5 {
+    position: absolute;
+    top: 40px;
+    left: 307px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #669863;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .group-6 {
+    position: absolute;
+    width: 499px;
+    height: 95px;
+    top: 720px;
+    left: 1328px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .overlap-5 {
+    position: relative;
+    width: 493px;
+    height: 95px;
+    background-image: url(./img/rectangle-6-5.svg);
+    background-size: 100% 100%;
+  }
+  
+  .overview .group-7 {
+    position: absolute;
+    width: 499px;
+    height: 95px;
+    top: 835px;
+    left: 1328px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .overlap-6 {
+    position: relative;
+    width: 493px;
+    height: 95px;
+    background-image: url(./img/rectangle-6-3.svg);
+    background-size: 100% 100%;
+  }
+  
+  .overview .group-8 {
+    position: absolute;
+    width: 499px;
+    height: 95px;
+    top: 950px;
+    left: 1328px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .overlap-7 {
+    position: relative;
+    width: 493px;
+    height: 95px;
+    background-image: url(./img/rectangle-6.svg);
+    background-size: 100% 100%;
+  }
+  
+  .overview .line {
+    position: absolute;
+    width: 1520px;
+    height: 1px;
+    top: 165px;
+    left: 383px;
+  }
+  
+  .overview .overview-section {
+    position: absolute;
+    width: 859px;
+    height: 339px;
+    top: 713px;
+    left: 419px;
+  }
+  
+  .overview .recent-transactions {
+    position: absolute;
+    width: 356px;
+    height: 22px;
+    top: 212px;
+    left: 1321px;
+  }
+  
+  .overview .rectangle {
+    position: absolute;
+    width: 847px;
+    height: 215px;
+    top: 207px;
+    left: 425px;
+  }
+  
+  .overview .rectangle-2 {
+    position: absolute;
+    width: 391px;
+    height: 214px;
+    top: 466px;
+    left: 437px;
+  }
+  
+  .overview .frame-wrapper {
+    position: absolute;
+    width: 392px;
+    height: 214px;
+    top: 466px;
+    left: 868px;
+    background-image: url(./img/rectangle-5.png);
+    background-size: 100% 100%;
+  }
+  
+  .overview .frame {
+    position: absolute;
+    width: 32px;
+    height: 31px;
+    top: 18px;
+    left: 222px;
+  }
+  
+  .overview .rectangle-3 {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    top: 0;
+    left: 0;
+  }
+  
+  .overview .thea-delos-reyes {
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    top: 37px;
+    left: 1621px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .text-wrapper-6 {
+    position: absolute;
+    width: 221px;
+    top: 1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #f4f5f7;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .dollar {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 26px;
+    left: 85px;
+    background-image: url(./img/icons8-dollar-100.png);
+    background-size: 100% 100%;
+  }
+  
+  .overview .text-wrapper-7 {
+    position: absolute;
+    top: 19px;
+    left: 172px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .skskksks {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 26px;
+    left: 1547px;
+    background-image: url(./img/skskksks.png);
+    background-size: 100% 100%;
+  }
+  
+  .overview .rectangle-4 {
+    position: absolute;
+    width: 385px;
+    height: 980px;
+    top: 100px;
+    left: 0;
+  }
+  
+  .overview .dashboard {
+    position: absolute;
+    width: 181px;
+    top: 603px;
+    left: 125px;
+    transition: all 0.2s ease;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .dashboard-2 {
+    position: absolute;
+    width: 181px;
+    top: 391px;
+    left: 125px;
+    transition: all 0.2s ease;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .ic-add-circle {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 504px;
+    left: 62px;
+  }
+  
+  .overview .ic-home {
+    position: absolute;
+    width: 35px;
+    height: 29px;
+    top: 191px;
+    left: 57px;
+  }
+  
+  .overview .add-new {
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    top: 497px;
+    left: 125px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .text-wrapper-8 {
+    position: absolute;
+    width: 154px;
+    top: 1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .customers {
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    top: 610px;
+    left: 63px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .dashboard-3 {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    top: 186px;
+    left: 125px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .text-wrapper-9 {
+    position: absolute;
+    width: 181px;
+    top: 1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .dashboard-4 {
+    position: absolute;
+    width: 181px;
+    top: 291px;
+    left: 125px;
+    transition: all 0.2s ease;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .expand-icon {
+    position: absolute;
+    width: 23px;
+    height: 20px;
+    top: 987px;
+    left: 74px;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .logout {
+    position: absolute;
+    width: 115px;
+    height: 41px;
+    top: 976px;
+    left: 125px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+  }
+  
+  .overview .text-wrapper-10 {
+    position: absolute;
+    width: 120px;
+    top: 1px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #707070;
+    font-size: 31px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .overview .split-money {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 395px;
+    left: 59px;
+  }
+  
+  .overview .request-money {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 296px;
+    left: 59px;
+    background-image: url(./img/icons8-request-money-100-1.png);
+    background-size: 100% 100%;
+  }
+  
