@@ -1,0 +1,1589 @@
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.overviewbutton-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.overviewbutton-dummy-container {
+  width: 100%;
+  height: 900px;
+}
+.overviewbutton-overviewbutton {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.overviewbutton-rectangle1 {
+  top: 4px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+.overviewbutton-rectangle8 {
+  top: 114px;
+  left: 1365px;
+  width: 126px;
+  height: 41px;
+  position: absolute;
+}
+.overviewbutton-text {
+  top: 122px;
+  left: 1401px;
+  color: rgba(244, 245, 247, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-rectangle9 {
+  top: 114px;
+  left: 1531px;
+  width: 125px;
+  height: 41px;
+  position: absolute;
+}
+.overviewbutton-text002 {
+  top: 122px;
+  left: 1560px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-rectangle10 {
+  top: 114px;
+  left: 1696px;
+  width: 125px;
+  height: 41px;
+  position: absolute;
+}
+.overviewbutton-text004 {
+  top: 122px;
+  left: 1723px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-rectangle6 {
+  top: 264px;
+  left: 1328px;
+  width: 493px;
+  height: 95px;
+  position: absolute;
+}
+.overviewbutton-text006 {
+  top: 288px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text008 {
+  top: 321px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text010 {
+  top: 304px;
+  left: 1635px;
+  color: rgba(220, 83, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8menuvertical1001button {
+  top: 305px;
+  left: 1746px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-rectangle61 {
+  top: 379px;
+  left: 1328px;
+  width: 493px;
+  height: 95px;
+  position: absolute;
+}
+.overviewbutton-text012 {
+  top: 403px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text014 {
+  top: 436px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text016 {
+  top: 419px;
+  left: 1618px;
+  color: rgba(102, 152, 99, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8menuvertical1001button1 {
+  top: 420px;
+  left: 1746px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-rectangle62 {
+  top: 494px;
+  left: 1328px;
+  width: 493px;
+  height: 95px;
+  position: absolute;
+}
+.overviewbutton-text018 {
+  top: 518px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text020 {
+  top: 551px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text022 {
+  top: 534px;
+  left: 1635px;
+  color: rgba(220, 83, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8menuvertical1001button2 {
+  top: 535px;
+  left: 1746px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-rectangle63 {
+  top: 609px;
+  left: 1328px;
+  width: 493px;
+  height: 95px;
+  position: absolute;
+}
+.overviewbutton-text024 {
+  top: 633px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text026 {
+  top: 666px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text028 {
+  top: 649px;
+  left: 1635px;
+  color: rgba(102, 152, 99, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8menuvertical1001button3 {
+  top: 650px;
+  left: 1746px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-rectangle64 {
+  top: 724px;
+  left: 1328px;
+  width: 493px;
+  height: 95px;
+  position: absolute;
+}
+.overviewbutton-text030 {
+  top: 748px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text032 {
+  top: 781px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text034 {
+  top: 764px;
+  left: 1618px;
+  color: rgba(102, 152, 99, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8menuvertical1001button4 {
+  top: 765px;
+  left: 1746px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-rectangle65 {
+  top: 839px;
+  left: 1328px;
+  width: 493px;
+  height: 95px;
+  position: absolute;
+}
+.overviewbutton-text036 {
+  top: 863px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text038 {
+  top: 896px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text040 {
+  top: 879px;
+  left: 1635px;
+  color: rgba(220, 83, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8menuvertical1001button5 {
+  top: 880px;
+  left: 1746px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-rectangle66 {
+  top: 954px;
+  left: 1328px;
+  width: 493px;
+  height: 95px;
+  position: absolute;
+}
+.overviewbutton-text042 {
+  top: 978px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text044 {
+  top: 1011px;
+  left: 1379px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text046 {
+  top: 994px;
+  left: 1635px;
+  color: rgba(102, 152, 99, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8menuvertical1001 {
+  top: 995px;
+  left: 1746px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-line1 {
+  top: 169.5px;
+  left: 383px;
+  width: 1520px;
+  height: 1px;
+  position: absolute;
+}
+.overviewbutton-group {
+  top: 721px;
+  left: 425px;
+  width: 846.77197265625px;
+  height: 327.43701171875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-statistics-bg {
+  top: 0px;
+  left: 0px;
+  width: 847px;
+  height: 327px;
+  position: absolute;
+}
+.overviewbutton-all-users-graph {
+  top: 818.302001953125px;
+  left: 475px;
+  width: 775.5780029296875px;
+  height: 219.30999755859375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-filled-graph {
+  top: 5.27301025390625px;
+  left: 5.003993034362793px;
+  width: 767px;
+  height: 214px;
+  opacity: 0.70;
+  position: absolute;
+}
+.overviewbutton-line-graph {
+  top: 5.2779998779296875px;
+  left: 5.95900297164917px;
+  width: 764px;
+  height: 130px;
+  position: absolute;
+}
+.overviewbutton-jun-ellipse {
+  top: 0px;
+  left: 765.5880126953125px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector01 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-may-ellipse {
+  top: 71px;
+  left: 606.2559814453125px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector02 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector03 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-apr-ellipse {
+  top: 130px;
+  left: 457.68499755859375px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector04 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector05 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-mar-ellipse {
+  top: 76px;
+  left: 307.7049865722656px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector06 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector07 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-feb-ellipse {
+  top: 130px;
+  left: 157.7259979248047px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector08 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector09 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-jan-ellipse {
+  top: 46px;
+  left: 0px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector10 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector11 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-bounced-session-graph {
+  top: 835.3880004882812px;
+  left: 475px;
+  width: 776.5780029296875px;
+  height: 213.4119873046875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-line-graph1 {
+  top: 4.2400054931640625px;
+  left: 6.001999855041504px;
+  width: 766px;
+  height: 154px;
+  position: absolute;
+}
+.overviewbutton-jun-ellipse1 {
+  top: 0px;
+  left: 766.5880126953125px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector12 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector13 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-may-ellipse1 {
+  top: 94.54199981689453px;
+  left: 606.0900268554688px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector14 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector15 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-apr-ellipse1 {
+  top: 139.2779998779297px;
+  left: 461.19000244140625px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector16 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector17 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-mar-ellipse1 {
+  top: 97.54199981689453px;
+  left: 314.8760070800781px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector18 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector19 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-feb-ellipse1 {
+  top: 151.90699768066406px;
+  left: 157.1790008544922px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector20 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector21 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-jan-ellipse1 {
+  top: 97.60600280761719px;
+  left: 0px;
+  width: 9.989999771118164px;
+  height: 9.989999771118164px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector22 {
+  top: 0px;
+  left: 0px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+.overviewbutton-vector23 {
+  top: 1px;
+  left: 1px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+.overviewbutton-filled-graphpurple {
+  top: 5.2760009765625px;
+  left: 5.001999855041504px;
+  width: 767px;
+  height: 208px;
+  opacity: 0.70;
+  position: absolute;
+}
+.overviewbutton-months {
+  top: 1022.2769775390625px;
+  left: 480px;
+  width: 780.77197265625px;
+  height: 13px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-text048 {
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text050 {
+  left: 150.81100463867188px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text052 {
+  left: 298.44500732421875px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text054 {
+  left: 449.3380126953125px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text056 {
+  left: 595.3629760742188px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text058 {
+  left: 749.77197265625px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-yaxis-info {
+  top: 862.6740112304688px;
+  left: 440px;
+  width: 20px;
+  height: 153.60299682617188px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-text060 {
+  top: 140.60299682617188px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text062 {
+  top: 98.19499969482422px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text064 {
+  top: 49.2239990234375px;
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text066 {
+  color: rgba(67, 66, 93, 1);
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-bounced-users-label {
+  top: 763px;
+  left: 874.77197265625px;
+  width: 55.39800262451172px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-text068 {
+  top: 1px;
+  left: 18.398000717163086px;
+  color: rgba(77, 79, 92, 1);
+  height: auto;
+  position: absolute;
+  font-size: 9px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-purple-ellipse {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector24 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.overviewbutton-vector25 {
+  top: 1.5px;
+  left: 1.5px;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+}
+.overviewbutton-all-users-label {
+  top: 763px;
+  left: 736.77197265625px;
+  width: 50.71099853515625px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-text070 {
+  top: 1px;
+  left: 18.711000442504883px;
+  color: rgba(77, 79, 92, 1);
+  height: auto;
+  position: absolute;
+  font-size: 9px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-blue-ellipse {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-vector26 {
+  top: 0px;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+}
+.overviewbutton-vector27 {
+  top: 1.5px;
+  left: 1.5px;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+}
+.overviewbutton-text072 {
+  top: 734px;
+  left: 458.7720031738281px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text074 {
+  top: 209px;
+  left: 1318px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-rectangle3 {
+  top: 211px;
+  left: 425px;
+  width: 847px;
+  height: 215px;
+  position: absolute;
+}
+.overviewbutton-total-balance {
+  top: 339px;
+  left: 723px;
+  width: 250px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-text076 {
+  top: 2px;
+  color: rgba(244, 245, 247, 1);
+  width: 315px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-frame586500 {
+  top: 257px;
+  left: 735px;
+  width: 226px;
+  height: 70px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-text078 {
+  top: 4px;
+  color: rgba(244, 245, 247, 1);
+  height: auto;
+  position: absolute;
+  font-size: 53px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-rectangle4 {
+  top: 470px;
+  left: 437px;
+  width: 391px;
+  height: 214px;
+  position: absolute;
+}
+.overviewbutton-text080 {
+  top: 561px;
+  left: 538px;
+  color: rgba(102, 152, 99, 1);
+  height: auto;
+  position: absolute;
+  font-size: 44px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text082 {
+  top: 624px;
+  left: 592px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-iccallmissed24px {
+  top: 510px;
+  left: 467px;
+  width: 51px;
+  height: 30px;
+  position: absolute;
+}
+.overviewbutton-rectangle5 {
+  top: 470px;
+  left: 868px;
+  width: 392px;
+  height: 214px;
+  position: absolute;
+}
+.overviewbutton-text084 {
+  top: 561px;
+  left: 1000px;
+  color: rgba(220, 83, 24, 1);
+  height: auto;
+  position: absolute;
+  font-size: 44px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text086 {
+  top: 624px;
+  left: 997px;
+  color: rgba(112, 112, 112, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-ictrendingdown24px {
+  top: 510px;
+  left: 898px;
+  width: 49px;
+  height: 29px;
+  position: absolute;
+}
+.overviewbutton-rectangle11 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 100px;
+  position: absolute;
+}
+.overviewbutton-text088 {
+  top: 39.45161437988281px;
+  left: 1621px;
+  color: rgba(244, 245, 247, 1);
+  width: 221px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8dollar100 {
+  top: 26px;
+  left: 85px;
+  width: 49px;
+  height: 49px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-icons8dollar1001 {
+  top: 0px;
+  left: 0px;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+}
+.overviewbutton-text090 {
+  top: 20px;
+  left: 172px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-skskksks {
+  top: 26px;
+  left: 1547px;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+}
+.overviewbutton-rectangle2 {
+  top: 100px;
+  left: 0px;
+  width: 385px;
+  height: 984px;
+  position: absolute;
+}
+.overviewbutton-text092 {
+  top: 604px;
+  left: 125px;
+  color: rgba(112, 112, 112, 1);
+  width: 181px;
+  height: auto;
+  position: absolute;
+  font-size: 31px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text094 {
+  top: 392px;
+  left: 125px;
+  color: rgba(112, 112, 112, 1);
+  width: 181px;
+  height: auto;
+  position: absolute;
+  font-size: 31px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icaddcircleoutline24px {
+  top: 503.64080810546875px;
+  left: 62.323760986328125px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-ichome24px {
+  top: 191.37142944335938px;
+  left: 57.29764938354492px;
+  width: 35px;
+  height: 29px;
+  position: absolute;
+}
+.overviewbutton-add-newbutton {
+  top: 496.61224365234375px;
+  left: 124.64752197265625px;
+  width: 145px;
+  height: 40.163265228271484px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-text096 {
+  top: 1.959183692932129px;
+  color: rgba(112, 112, 112, 1);
+  width: 154px;
+  height: auto;
+  position: absolute;
+  font-size: 31px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-customers {
+  top: 610.073486328125px;
+  left: 63.328983306884766px;
+  width: 22px;
+  height: 25.102041244506836px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-customers1 {
+  top: -0.03799985349178314px;
+  left: -2.9802322387695312e-8px;
+  width: 22.114883422851562px;
+  height: 25.139192581176758px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-iconcustomers {
+  top: 0px;
+  left: 0px;
+  width: 22.114883422851562px;
+  height: 25.139192581176758px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.overviewbutton-union10 {
+  top: 0px;
+  left: 0px;
+  width: 22px;
+  height: 25px;
+  position: absolute;
+}
+.overviewbutton-dashboard {
+  top: 186.35101318359375px;
+  left: 124.64752197265625px;
+  width: 170px;
+  height: 40.163265228271484px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-text098 {
+  top: 1.959183692932129px;
+  color: rgba(112, 112, 112, 1);
+  width: 181px;
+  height: auto;
+  position: absolute;
+  font-size: 31px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-text100 {
+  top: 292px;
+  left: 125px;
+  color: rgba(112, 112, 112, 1);
+  width: 181px;
+  height: auto;
+  position: absolute;
+  font-size: 31px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-expandicon {
+  top: 986.6040649414062px;
+  left: 74.38642120361328px;
+  width: 23px;
+  height: 20px;
+  position: absolute;
+}
+.overviewbutton-logoutbutton {
+  top: 975.5592041015625px;
+  left: 124.64752197265625px;
+  width: 115px;
+  height: 41.1673469543457px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-text102 {
+  top: 2.0081632137298584px;
+  color: rgba(112, 112, 112, 1);
+  width: 120px;
+  height: auto;
+  position: absolute;
+  font-size: 31px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.overviewbutton-icons8splitmoney100 {
+  top: 395.20001220703125px;
+  left: 59.3080940246582px;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+}
+.overviewbutton-icons8requestmoney10011 {
+  top: 295.7958984375px;
+  left: 59.3080940246582px;
+  width: 30px;
+  height: 30.12244987487793px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.overviewbutton-icons8requestmoney1001 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
